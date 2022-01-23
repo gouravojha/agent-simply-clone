@@ -33,7 +33,8 @@
     margin-left: 1rem;
 }
 .navbar__list{
-    margin-left:8rem;
+    position: absolute;
+    right:25rem;
     display: flex;
 }
 .navbar__list > ul{
@@ -47,15 +48,15 @@
     color:rgb(56, 55, 55);
 }
 .navbar__notify{
-    display: flex;
-    align-items: center;
-    margin-left: 5rem;
+    position: absolute;
+    top: 1rem;
+    right:16rem;
     cursor: pointer;
 }
 .navbar__notify__number{
     position: absolute;
-    top: 6px;
-    right: 200px;
+    top: -0.5rem; 
+    right: -0.5rem;
     background-color:red;
     color:white;
     font-size:12px;
@@ -70,9 +71,11 @@
     cursor: pointer;
 }
 .navbar__user__profile{
+    position: absolute;
     display: flex;
     align-items: center;
-    margin-left: 4rem;
+    right:2rem;
+    top: 0.8rem;
     cursor: pointer;
 }
 .navbar__user__profile > div > span{

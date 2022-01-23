@@ -2,7 +2,7 @@ import React from 'react';
 import "./styles/Navbar.css";
 import logo from "../assets/bitla.png";
 import { IoNotificationsSharp } from "react-icons/io5";
-import { CgProfile } from "react-icons/cg";
+import { FaUserCircle } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -29,7 +29,7 @@ function Navbar() {
               <div className="navbar__notify__number">10</div>
           </div>
           <div className="navbar__user__profile">
-              <CgProfile size={30} color="black" />
+              <FaUserCircle size={25} color="grey" />
               <div><span>Gourav Ojha</span></div>
           </div>
       </div>
